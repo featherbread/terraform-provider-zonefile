@@ -1,3 +1,9 @@
+## v0.1.2 (2025-03-01)
+
+This release rebuilds the provider with the latest stable version of Go to
+incorporate runtime enhancements, and updates to newer versions of some
+internal libraries. No user-visible changes are expected.
+
 ## v0.1.1 (2024-08-18)
 
 ### Fixed
