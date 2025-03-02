@@ -34,7 +34,7 @@ builds:
     goarch: arm
 
 archives:
-- format: zip
+- formats: [zip]
   name_template: '{{.ProjectName}}_{{.Version}}_{{.Os}}_{{.Arch}}'
   files:
   - src: release/COPYING.txt
