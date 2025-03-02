@@ -7,10 +7,10 @@ use in Terraform and compatible forks like OpenTofu.
 [zone file]: https://en.wikipedia.org/wiki/Zone_file
 [RFC 1035]: https://datatracker.ietf.org/doc/html/rfc1035
 
-As of writing, the provider is in a pre-release state and is not published to
-any registry. However, documentation is available in the `docs/` directory, and
-you can build and install the plugin into a [local mirror directory][mirror] for
-testing.
+As of 1 March 2025, the provider is available for HashiCorp Terraform users
+from the Terraform Registry, and a request has been made to publish the
+provider in the OpenTofu Registry. You can also build and install the plugin
+into a [local mirror directory][mirror] for testing.
 
 [mirror]: https://developer.hashicorp.com/terraform/cli/config/config-file#implied-local-mirror-directories
 
