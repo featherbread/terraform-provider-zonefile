@@ -1,5 +1,6 @@
 *.dll
 *.exe
+/terraform-provider-zonefile
 .DS_Store
 example.tf
 terraform.tfplan
