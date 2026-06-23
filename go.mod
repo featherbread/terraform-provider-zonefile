@@ -1,4 +1,4 @@
-module github.com/ahamlinman/terraform-provider-zonefile
+module github.com/featherbread/terraform-provider-zonefile
 
 go 1.25.8
 

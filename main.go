@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 
-	"github.com/ahamlinman/terraform-provider-zonefile/internal/provider"
+	"github.com/featherbread/terraform-provider-zonefile/internal/provider"
 )
 
 // version is set automatically during goreleaser builds.
@@ -19,7 +19,7 @@ func main() {
 	flag.Parse()
 
 	err := providerserver.Serve(context.Background(), provider.New(version), providerserver.ServeOpts{
-		Address: "registry.terraform.io/ahamlinman/zonefile",
+		Address: "registry.terraform.io/featherbread/zonefile",
 		Debug:   *flagDebug,
 	})
 	if err != nil {
