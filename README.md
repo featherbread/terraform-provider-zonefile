@@ -4,7 +4,8 @@ The zonefile provider parses the contents of DNS [**zone files**][zone file],
 as defined by [RFC 1035][RFC 1035], and provides structured, well-typed data
 for use throughout your `.tf` files. You can find it as `ahamlinman/zonefile`
 on both the [OpenTofu][opentofu] and [HashiCorp Terraform][terraform]
-registries.
+registries. (Migrations to `featherbread/zonefile`, to match my current GitHub
+username, are in flight.)
 
 [zone file]: https://en.wikipedia.org/wiki/Zone_file
 [RFC 1035]: https://datatracker.ietf.org/doc/html/rfc1035
